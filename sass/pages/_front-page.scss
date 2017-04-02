@@ -1,0 +1,49 @@
+.wrap-front-page {
+    .site-main {
+        article {
+            .entry-content {
+                margin: 0;
+                padding: 94px 25px 70px;
+
+            }
+            p {
+                margin: 0;
+                text-align: justify;
+
+            }
+        }
+    }
+    .media-section {
+        .title-media-section {
+            &:after {
+                content: '';
+                width: 100%;
+                height: 3px;
+                background-color: #d81406;
+                display: block;
+
+            }
+            .widget_text {
+                margin: 0;
+            }
+            h2 {
+                margin: 0;
+                padding: 0 0 30px 25px;
+            }
+        }
+        .block-media{
+            ul {
+                margin: 40px 0 0 0;
+                padding: 20px;
+                background-color: #010101;
+                display: flex;
+                flex-flow: row wrap;
+                list-style-type: none;
+                li {
+                    width: 33.3%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+}
